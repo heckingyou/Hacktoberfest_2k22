@@ -29,7 +29,7 @@ void Counting_Sort(int A[], int B[], int n) {
                 C[A[j]] = C[A[j]] - 1;
         }
 }
-int main() {
+int main() { //execution of every program begins with main function
         int n;
         cout << "Enter the size of the array :";
         cin >> n;
